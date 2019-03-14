@@ -33,9 +33,10 @@
             // 
             // Backbtn
             // 
-            this.Backbtn.Location = new System.Drawing.Point(12, 380);
+            this.Backbtn.Location = new System.Drawing.Point(11, 438);
+            this.Backbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Backbtn.Name = "Backbtn";
-            this.Backbtn.Size = new System.Drawing.Size(168, 58);
+            this.Backbtn.Size = new System.Drawing.Size(170, 62);
             this.Backbtn.TabIndex = 1;
             this.Backbtn.Text = "Back";
             this.Backbtn.UseVisualStyleBackColor = true;
@@ -43,10 +44,11 @@
             // 
             // Vehicles
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.Backbtn);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Vehicles";
             this.Text = "Vehicles";
             this.ResumeLayout(false);
