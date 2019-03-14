@@ -94,9 +94,9 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(0, 0);
+            this.dateTimePicker1.Location = new System.Drawing.Point(-2, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(934, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(936, 20);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // RevenueLabel
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.RevenueLabel);
             this.Controls.Add(this.dateTimePicker1);
