@@ -26,3 +26,17 @@ C:\Users\TEMP\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam
 C:\Users\TEMP\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.csproj.CoreCompileInputs.cache
 C:\Users\TEMP\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.exe
 C:\Users\TEMP\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.pdb
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\FinalExam.exe.config
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\FinalExam.exe
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\FinalExam.pdb
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.csprojAssemblyReference.cache
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.Customers.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.Invoices.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.JoesCRM.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.Parts.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.Properties.Resources.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.Vehicles.resources
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.csproj.GenerateResource.cache
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.csproj.CoreCompileInputs.cache
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.exe
+C:\Users\veter\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.pdb
