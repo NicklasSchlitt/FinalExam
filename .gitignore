@@ -1,0 +1,10 @@
+
+FinalExam/FinalExam/Customersdata.mdf
+*.mdf
+*.ldf
+*.cs
+*.xsc
+*.xsd
+*.xss
+*.user
+*.dll
