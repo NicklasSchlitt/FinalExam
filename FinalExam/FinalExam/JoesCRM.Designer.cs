@@ -28,23 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JoesCRM));
             this.Customersbtn = new System.Windows.Forms.Button();
             this.Partsbtn = new System.Windows.Forms.Button();
             this.Invoicesbtn = new System.Windows.Forms.Button();
             this.Vehiclesbtn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.RevenueLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Customersbtn
             // 
-            this.Customersbtn.Location = new System.Drawing.Point(12, 139);
-            this.Customersbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Customersbtn.Location = new System.Drawing.Point(9, 113);
+            this.Customersbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Customersbtn.Name = "Customersbtn";
-            this.Customersbtn.Size = new System.Drawing.Size(193, 75);
+            this.Customersbtn.Size = new System.Drawing.Size(145, 61);
             this.Customersbtn.TabIndex = 0;
             this.Customersbtn.Text = "Customers";
             this.Customersbtn.UseVisualStyleBackColor = true;
@@ -52,10 +50,10 @@
             // 
             // Partsbtn
             // 
-            this.Partsbtn.Location = new System.Drawing.Point(211, 139);
-            this.Partsbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Partsbtn.Location = new System.Drawing.Point(158, 113);
+            this.Partsbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Partsbtn.Name = "Partsbtn";
-            this.Partsbtn.Size = new System.Drawing.Size(193, 75);
+            this.Partsbtn.Size = new System.Drawing.Size(145, 61);
             this.Partsbtn.TabIndex = 1;
             this.Partsbtn.Text = "Parts";
             this.Partsbtn.UseVisualStyleBackColor = true;
@@ -63,10 +61,10 @@
             // 
             // Invoicesbtn
             // 
-            this.Invoicesbtn.Location = new System.Drawing.Point(211, 218);
-            this.Invoicesbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Invoicesbtn.Location = new System.Drawing.Point(158, 177);
+            this.Invoicesbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Invoicesbtn.Name = "Invoicesbtn";
-            this.Invoicesbtn.Size = new System.Drawing.Size(193, 75);
+            this.Invoicesbtn.Size = new System.Drawing.Size(145, 61);
             this.Invoicesbtn.TabIndex = 2;
             this.Invoicesbtn.Text = "Invoices";
             this.Invoicesbtn.UseVisualStyleBackColor = true;
@@ -74,10 +72,10 @@
             // 
             // Vehiclesbtn
             // 
-            this.Vehiclesbtn.Location = new System.Drawing.Point(12, 218);
-            this.Vehiclesbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Vehiclesbtn.Location = new System.Drawing.Point(9, 177);
+            this.Vehiclesbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Vehiclesbtn.Name = "Vehiclesbtn";
-            this.Vehiclesbtn.Size = new System.Drawing.Size(193, 75);
+            this.Vehiclesbtn.Size = new System.Drawing.Size(145, 61);
             this.Vehiclesbtn.TabIndex = 3;
             this.Vehiclesbtn.Text = "Vehicles";
             this.Vehiclesbtn.UseVisualStyleBackColor = true;
@@ -85,10 +83,9 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(-3, 0);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Location = new System.Drawing.Point(-2, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(1247, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(314, 20);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // RevenueLabel
@@ -97,43 +94,43 @@
             this.RevenueLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.RevenueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.RevenueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.RevenueLabel.Location = new System.Drawing.Point(12, 295);
-            this.RevenueLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RevenueLabel.Location = new System.Drawing.Point(9, 240);
             this.RevenueLabel.Name = "RevenueLabel";
-            this.RevenueLabel.Size = new System.Drawing.Size(392, 42);
+            this.RevenueLabel.Size = new System.Drawing.Size(294, 34);
             this.RevenueLabel.TabIndex = 6;
             this.RevenueLabel.Text = "Monthly Revenue: +$536.32";
             // 
-            // pictureBox1
+            // label1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(117, 29);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(168, 105);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Verdana", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(23, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(263, 35);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Joe\'s Automotive";
             // 
             // JoesCRM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkViolet;
+            this.BackgroundImage = global::FinalExam.Properties.Resources.texture_marble;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(413, 358);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(310, 291);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.RevenueLabel);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.Vehiclesbtn);
             this.Controls.Add(this.Invoicesbtn);
             this.Controls.Add(this.Partsbtn);
             this.Controls.Add(this.Customersbtn);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "JoesCRM";
             this.Text = "Joe\'s Automotive";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -145,7 +142,7 @@
         private System.Windows.Forms.Button Vehiclesbtn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label RevenueLabel;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

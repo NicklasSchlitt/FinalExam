@@ -17,7 +17,7 @@ namespace FinalExam
         {
             InitializeComponent();
         }
-        // suck my pp
+        
         private void Backbtn_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -43,7 +43,9 @@ namespace FinalExam
             }
         }
 
-        private void BindGrid()
+        
+
+        private void Customers_Load(object sender, EventArgs e)
         {
             string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=S:\repos\FinalExam\FinalExam\FinalExam\Customersdatabase.mdf;Integrated Security=True";
             using (SqlConnection con = new SqlConnection(constring))
