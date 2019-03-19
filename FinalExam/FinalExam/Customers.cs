@@ -70,6 +70,7 @@ namespace FinalExam
         private void SearchButton_Click(object sender, EventArgs e)
         {
             string searchValue = textBox1.Text;
+            int rowIndex = -1;
 
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             try
@@ -78,7 +79,8 @@ namespace FinalExam
                 {
                     if (row.Cells[row.Index].Value.ToString().Equals(searchValue))
                     {
-                        row.Selected = true;
+                        rowIndex = row.Index;
+                        dataGridView1.Rows[row.Index].Selected = true;
                         break;
                     }
                 }
