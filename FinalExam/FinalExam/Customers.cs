@@ -30,10 +30,7 @@ namespace FinalExam
 
         }
 
-        private void AddNmeBtn_Click(object sender, EventArgs e)
-        {
-            dataGridView1.Rows.Add(textBox1, textBox4, textBox3, textBox2);
-        }
+        
 
         private void RemveNmeBtn_Click(object sender, EventArgs e)
         {
@@ -47,7 +44,7 @@ namespace FinalExam
 
         private void Customers_Load(object sender, EventArgs e)
         {
-            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=S:\repos\FinalExam\FinalExam\FinalExam\Customersdatabase.mdf;Integrated Security=True";
+            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\Customersdatabase.mdf;Integrated Security=True";
             using (SqlConnection con = new SqlConnection(constring))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM Customers", con))
@@ -62,6 +59,33 @@ namespace FinalExam
                         }
                     }
                 }
+            }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            string searchValue = textBox1.Text;
+
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            try
+            {
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    if (row.Cells[row.Index].Value.ToString().Equals(searchValue))
+                    {
+                        row.Selected = true;
+                        break;
+                    }
+                }
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
             }
         }
     }
