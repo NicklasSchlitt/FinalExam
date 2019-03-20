@@ -24,6 +24,14 @@ namespace FinalExam
             joes.Show(this);
         }
 
-        
+        private void Invoices_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
