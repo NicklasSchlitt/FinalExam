@@ -12,6 +12,8 @@ namespace FinalExam
 {
     public partial class Invoices : Form
     {
+        int totalcost = 22608;
+        double fluidcheckup = 24.99;
         public Invoices()
         {
             InitializeComponent();
@@ -26,12 +28,24 @@ namespace FinalExam
 
         private void Invoices_Load(object sender, EventArgs e)
         {
-
+            label1.Text = "$" + totalcost.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                label1.Text = "$" + (totalcost + fluidcheckup).ToString();
+            }
+            else
+            {
+                label1.Text = "$" + totalcost.ToString();
+            }
         }
     }
 }
