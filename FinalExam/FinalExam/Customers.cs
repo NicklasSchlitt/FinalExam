@@ -71,7 +71,7 @@ namespace FinalExam
         {
             string searchValue = textBox1.Text;
             int rowIndex = -1;
-
+            
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             try
             {
