@@ -71,6 +71,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CustomersdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Invoices.cs">
       <SubType>Form</SubType>
@@ -125,14 +126,17 @@
     </EmbeddedResource>
     <None Include="CustomersdatabaseDataSet.xsc">
       <DependentUpon>CustomersdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="CustomersdatabaseDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>CustomersdatabaseDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="CustomersdatabaseDataSet.xss">
       <DependentUpon>CustomersdatabaseDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -155,6 +159,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CustomersDatabase.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Invoices.jpg" />
     <None Include="Resources\texture_marble.png" />
   </ItemGroup>
   <ItemGroup>

@@ -56,3 +56,7 @@ C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\Fina
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.csproj.CoreCompileInputs.cache
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.exe
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.pdb
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.Designer.cs
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xsc
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xsd
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xss
