@@ -33,5 +33,16 @@ namespace FinalExam.Properties {
                 return ((string)(this["CustomersdatabaseConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\InvoicesDatab" +
+            "ase.mdf;Integrated Security=True")]
+        public string InvoicesDatabaseConnectionString {
+            get {
+                return ((string)(this["InvoicesDatabaseConnectionString"]));
+            }
+        }
     }
 }
