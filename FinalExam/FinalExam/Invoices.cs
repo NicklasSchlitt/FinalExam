@@ -28,6 +28,7 @@ namespace FinalExam
             joes.Show(this);
         }
 
+        //Displays Database info on datagridview
         private void Invoices_Load(object sender, EventArgs e)
         {
             
@@ -50,11 +51,6 @@ namespace FinalExam
 
 
            label1.Text = "$" + totalcost.ToString();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

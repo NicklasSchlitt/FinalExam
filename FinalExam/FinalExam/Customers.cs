@@ -24,26 +24,9 @@ namespace FinalExam
             JoesCRM joes = new JoesCRM();
             joes.Show(this);
         }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
-        private void RemveNmeBtn_Click(object sender, EventArgs e)
-        {
-            foreach (DataGridViewRow item in this.dataGridView1.SelectedRows)
-            {
-                dataGridView1.Rows.RemoveAt(item.Index);
-            }
-        }
-
-        
-
+       
         private void Customers_Load(object sender, EventArgs e)
-        {
+        { // Sets Database to display on gridview
             string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\Customersdatabase.mdf;Integrated Security=True";
             using (SqlConnection con = new SqlConnection(constring))
             {
@@ -61,14 +44,13 @@ namespace FinalExam
                 }
             }
         }
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             
         }
-
+                            //Search directory
         private void SearchButton_Click(object sender, EventArgs e)
-        {
+        {  
             string searchValue = textBox1.Text;
             int rowIndex = -1;
             
