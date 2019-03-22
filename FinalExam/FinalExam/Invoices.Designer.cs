@@ -63,7 +63,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 33);
             this.label1.TabIndex = 16;
-            this.label1.Text = "$22608";
+            this.label1.Text = "$372";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // checkBox1
