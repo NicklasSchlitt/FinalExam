@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JoesCRM));
             this.Customersbtn = new System.Windows.Forms.Button();
             this.Partsbtn = new System.Windows.Forms.Button();
             this.Invoicesbtn = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             // Customersbtn
             // 
             this.Customersbtn.Location = new System.Drawing.Point(9, 113);
-            this.Customersbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Customersbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Customersbtn.Name = "Customersbtn";
             this.Customersbtn.Size = new System.Drawing.Size(145, 61);
             this.Customersbtn.TabIndex = 0;
@@ -51,7 +52,7 @@
             // Partsbtn
             // 
             this.Partsbtn.Location = new System.Drawing.Point(158, 113);
-            this.Partsbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Partsbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Partsbtn.Name = "Partsbtn";
             this.Partsbtn.Size = new System.Drawing.Size(145, 61);
             this.Partsbtn.TabIndex = 1;
@@ -62,7 +63,7 @@
             // Invoicesbtn
             // 
             this.Invoicesbtn.Location = new System.Drawing.Point(158, 177);
-            this.Invoicesbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Invoicesbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Invoicesbtn.Name = "Invoicesbtn";
             this.Invoicesbtn.Size = new System.Drawing.Size(145, 61);
             this.Invoicesbtn.TabIndex = 2;
@@ -73,7 +74,7 @@
             // Vehiclesbtn
             // 
             this.Vehiclesbtn.Location = new System.Drawing.Point(9, 177);
-            this.Vehiclesbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Vehiclesbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Vehiclesbtn.Name = "Vehiclesbtn";
             this.Vehiclesbtn.Size = new System.Drawing.Size(145, 61);
             this.Vehiclesbtn.TabIndex = 3;
@@ -115,9 +116,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkViolet;
-            this.BackgroundImage = global::FinalExam.Properties.Resources.texture_marble;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(310, 291);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RevenueLabel);
@@ -126,7 +127,7 @@
             this.Controls.Add(this.Invoicesbtn);
             this.Controls.Add(this.Partsbtn);
             this.Controls.Add(this.Customersbtn);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "JoesCRM";
             this.Text = "Joe\'s Automotive";
             this.ResumeLayout(false);

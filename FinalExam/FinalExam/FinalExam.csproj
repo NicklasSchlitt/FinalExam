@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -78,6 +78,11 @@
     </Compile>
     <Compile Include="Invoices.Designer.cs">
       <DependentUpon>Invoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoicesDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoicesDatabaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="JoesCRM.cs">
       <SubType>Form</SubType>
@@ -138,6 +143,17 @@
       <DependentUpon>CustomersdatabaseDataSet.xsd</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="InvoicesDatabaseDataSet.xsc">
+      <DependentUpon>InvoicesDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvoicesDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvoicesDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvoicesDatabaseDataSet.xss">
+      <DependentUpon>InvoicesDatabaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -158,6 +174,13 @@
     <Content Include="CustomersDatabase_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CustomersDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="InvoicesDatabase.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="InvoicesDatabase_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>InvoicesDatabase.mdf</DependentUpon>
     </Content>
     <None Include="Resources\Invoices.jpg" />
     <None Include="Resources\texture_marble.png" />

@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace FinalExam
 {
     public partial class Invoices : Form
     {
-        int totalcost = 22608;
+        //Just a little binary for you dockett
+        int totalcost = 0b1011000100;
         double fluidcheckup = 24.99;
         public Invoices()
         {
@@ -26,14 +28,29 @@ namespace FinalExam
             joes.Show(this);
         }
 
+        //Displays Database info on datagridview
         private void Invoices_Load(object sender, EventArgs e)
         {
-            label1.Text = "$" + totalcost.ToString();
-        }
+            
+            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\InvoicesDatabase.mdf;Integrated Security=True";
+            using (SqlConnection con = new SqlConnection(constring))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM Invoices", con))
+                {
+                    cmd.CommandType = CommandType.Text;
+                    using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                    {
+                        using (DataTable dt = new DataTable())
+                        {
+                            sda.Fill(dt);
+                            dataGridView1.DataSource = dt;
+                        }
+                    }
+                }
+            }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
 
+           label1.Text = "$" + totalcost.ToString();
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -47,5 +64,7 @@ namespace FinalExam
                 label1.Text = "$" + totalcost.ToString();
             }
         }
+
+        
     }
 }

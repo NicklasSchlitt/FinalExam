@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vehicles));
             this.Backbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Backbtn
             // 
             this.Backbtn.Location = new System.Drawing.Point(11, 438);
-            this.Backbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Backbtn.Margin = new System.Windows.Forms.Padding(2);
             this.Backbtn.Name = "Backbtn";
             this.Backbtn.Size = new System.Drawing.Size(170, 62);
             this.Backbtn.TabIndex = 1;
@@ -46,9 +47,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.Backbtn);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Vehicles";
             this.Text = "Vehicles";
             this.ResumeLayout(false);
