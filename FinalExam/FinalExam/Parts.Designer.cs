@@ -35,7 +35,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.customersdatabaseDataSet = new FinalExam.CustomersdatabaseDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customersdatabaseDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // Backbtn
@@ -96,6 +98,11 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // customersdatabaseDataSet
+            // 
+            this.customersdatabaseDataSet.DataSetName = "CustomersdatabaseDataSet";
+            this.customersdatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // Parts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -113,6 +120,7 @@
             this.Name = "Parts";
             this.Text = "Parts";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.customersdatabaseDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,5 +134,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private CustomersdatabaseDataSet customersdatabaseDataSet;
     }
 }

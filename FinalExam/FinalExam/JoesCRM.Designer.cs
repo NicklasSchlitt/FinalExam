@@ -73,9 +73,9 @@
             // 
             // RevenueLabel
             // 
-            resources.ApplyResources(this.RevenueLabel, "RevenueLabel");
             this.RevenueLabel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.RevenueLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.RevenueLabel, "RevenueLabel");
             this.RevenueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.RevenueLabel.Name = "RevenueLabel";
             // 
