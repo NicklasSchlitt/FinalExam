@@ -60,3 +60,6 @@ C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\Cust
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xsc
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xsd
 C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\CustomersdatabaseDataSet.xss
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\bin\Debug\ja-JP\FinalExam.resources.dll
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\FinalExam.JoesCRM.ja-JP.resources
+C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\obj\Debug\ja-JP\FinalExam.resources.dll

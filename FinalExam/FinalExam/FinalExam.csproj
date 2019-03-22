@@ -105,6 +105,9 @@
     <EmbeddedResource Include="Invoices.resx">
       <DependentUpon>Invoices.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JoesCRM.ja-JP.resx">
+      <DependentUpon>JoesCRM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JoesCRM.resx">
       <DependentUpon>JoesCRM.cs</DependentUpon>
     </EmbeddedResource>
