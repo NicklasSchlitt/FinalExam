@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Invoices));
             this.Backbtn = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label1 = new System.Windows.Forms.Label();
@@ -62,14 +63,13 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(141, 33);
             this.label1.TabIndex = 16;
-            this.label1.Text = "$22608";
+            this.label1.Text = "$372";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(636, 371);
+            this.checkBox1.Location = new System.Drawing.Point(656, 358);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(94, 17);
             this.checkBox1.TabIndex = 17;
@@ -89,6 +89,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(934, 511);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
