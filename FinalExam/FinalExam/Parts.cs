@@ -23,5 +23,10 @@ namespace FinalExam
             JoesCRM joes = new JoesCRM();
             joes.Show(this);
         }
+
+        private void Parts_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
