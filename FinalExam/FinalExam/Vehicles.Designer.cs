@@ -110,6 +110,7 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label1.Location = new System.Drawing.Point(599, 53);
             this.label1.Name = "label1";
@@ -119,6 +120,7 @@
             // 
             // label2
             // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label2.Location = new System.Drawing.Point(626, 101);
             this.label2.Name = "label2";
@@ -128,6 +130,7 @@
             // 
             // label3
             // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label3.Location = new System.Drawing.Point(631, 151);
             this.label3.Name = "label3";
@@ -137,6 +140,7 @@
             // 
             // label4
             // 
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label4.Location = new System.Drawing.Point(611, 198);
             this.label4.Name = "label4";
@@ -146,6 +150,7 @@
             // 
             // label5
             // 
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label5.Location = new System.Drawing.Point(593, 245);
             this.label5.Name = "label5";
@@ -176,6 +181,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Vehicles";
             this.Text = "Vehicles";
+            this.Load += new System.EventHandler(this.Vehicles_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

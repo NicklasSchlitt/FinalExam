@@ -16,7 +16,7 @@ namespace FinalExam
         {
             InitializeComponent();
         }
-
+        // crates each form and hides current form
         private void Customersbtn_Click(object sender, EventArgs e)
         {
             this.Hide();

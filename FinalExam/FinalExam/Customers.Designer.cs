@@ -59,6 +59,7 @@
             // 
             // label1
             // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.label1.Location = new System.Drawing.Point(384, 11);
             this.label1.Name = "label1";
