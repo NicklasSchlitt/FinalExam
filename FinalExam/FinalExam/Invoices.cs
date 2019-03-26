@@ -14,7 +14,7 @@ namespace FinalExam
     public partial class Invoices : Form
     {
         //Just a little binary for you dockett
-        int totalcost = 0b1011000100;
+        int totalcost = 0b101110100;
         double fluidcheckup = 24.99;
         public Invoices()
         {
@@ -32,7 +32,7 @@ namespace FinalExam
         private void Invoices_Load(object sender, EventArgs e)
         {
             
-            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\InvoicesDatabase.mdf;Integrated Security=True";
+            string constring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\000131184\Documents\GitHub\FinalExam\FinalExam\FinalExam\Customersdatabase.mdf;Integrated Security=True";
             using (SqlConnection con = new SqlConnection(constring))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM Invoices", con))
@@ -40,10 +40,10 @@ namespace FinalExam
                     cmd.CommandType = CommandType.Text;
                     using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
                     {
-                        using (DataTable dt = new DataTable())
+                        using (DataTable dt2 = new DataTable())
                         {
-                            sda.Fill(dt);
-                            dataGridView1.DataSource = dt;
+                            sda.Fill(dt2);
+                            dataGridView1.DataSource = dt2;
                         }
                     }
                 }
