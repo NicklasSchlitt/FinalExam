@@ -48,13 +48,18 @@ namespace FinalExam
             _dater = textBox4.Text;
             _mileage = textBox5.Text;
             _customer = textBox1.Text;
-
+                                            // adds items to car box
             CarsBox.Items.Add(_customer);
             CarsBox.Items.Add(_model);
             CarsBox.Items.Add(_year);
             CarsBox.Items.Add(_mileage);
             CarsBox.Items.Add(_dater);
             CarsBox.Items.Add("________________________________________________________");
+        }
+
+        private void Vehicles_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -37,66 +37,65 @@ namespace FinalExam
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox2.SelectedIndex == 0)
+            if (comboBox2.SelectedIndex == 0) //when bike is selected
             {
-                
-                pictureBox1.Visible = true;
-                pictureBox2.Visible = false;
-                pictureBox3.Visible = false;
-                pictureBox4.Visible = false;
+                pictureBox1.Visible = true; // shows bike
+                pictureBox2.Visible = false;// hides tahoe
+                pictureBox3.Visible = false;// hides F350
+                pictureBox4.Visible = false;// hides VW minibus
             }
-            if (comboBox2.SelectedIndex == 1)
+            if (comboBox2.SelectedIndex == 1) //when tahoe is selected
             {
-                pictureBox1.Visible = false;
-                pictureBox2.Visible = true;
-                pictureBox3.Visible = false;
-                pictureBox4.Visible = false;
+                pictureBox1.Visible = false;// hides bike
+                pictureBox2.Visible = true; // shows tahoe 
+                pictureBox3.Visible = false;// hides F350
+                pictureBox4.Visible = false;// hides VW minibus
             }
-            if (comboBox2.SelectedIndex == 2)
+            if (comboBox2.SelectedIndex == 2) // when F350 is selected
             {
-                pictureBox1.Visible = false;
-                pictureBox2.Visible = false;
-                pictureBox3.Visible = true;
-                pictureBox4.Visible = false;
+                pictureBox1.Visible = false;// hides bike
+                pictureBox2.Visible = false;// hides tahoe
+                pictureBox3.Visible = true; // shows F350
+                pictureBox4.Visible = false;// hides VW minibus
             }
-            if (comboBox2.SelectedIndex == 3)
+            if (comboBox2.SelectedIndex == 3) // when VW minibus is selected
             {
-                pictureBox1.Visible = false;
-                pictureBox2.Visible = false;
-                pictureBox3.Visible = false;
-                pictureBox4.Visible = true;
+                pictureBox1.Visible = false;// hides bike
+                pictureBox2.Visible = false;// hides tahoe
+                pictureBox3.Visible = false;// hides F350
+                pictureBox4.Visible = true; // shows VW minibus
             }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex == 0)
+            if (comboBox1.SelectedIndex == 0) // when drive shaft is selected
             {
-                pictureBox4.Visible = true;
-                pictureBox5.Visible = false;
-                pictureBox6.Visible = false;
-                pictureBox7.Visible = false;
+                pictureBox5.Visible = true;  // shows drive shaft
+                pictureBox6.Visible = false; // hides brakes
+                pictureBox8.Visible = false; // hides car
+                pictureBox7.Visible = false; // hides window
             }
-            if (comboBox1.SelectedIndex == 1)
+            if (comboBox1.SelectedIndex == 1) // when brakes is selected
             {
-                pictureBox4.Visible = false;
-                pictureBox5.Visible = true;
-                pictureBox6.Visible = false;
-                pictureBox7.Visible = false;
+                pictureBox5.Visible = false; // hides drive shaft
+                pictureBox6.Visible = true;  // shows brakes
+                pictureBox8.Visible = false; // hides car
+                pictureBox7.Visible = false; // hides window
             }
-            if (comboBox1.SelectedIndex == 2)
+            if (comboBox1.SelectedIndex == 2) // when car is selected
             {
-                pictureBox4.Visible = false;
-                pictureBox5.Visible = false;
-                pictureBox6.Visible = true;
-                pictureBox7.Visible = false;
+                pictureBox5.Visible = false; // hides drive shaft
+                pictureBox6.Visible = false; // hides brakes
+                pictureBox8.Visible = true;  // shows car
+                pictureBox7.Visible = false; // hides window
             }
-            if (comboBox1.SelectedIndex == 3)
+            if (comboBox1.SelectedIndex == 3) // when window is selected
             {
-                pictureBox4.Visible = false; ;
-                pictureBox5.Visible = false;
-                pictureBox6.Visible = false;
-                pictureBox7.Visible = true;
+                pictureBox5.Visible = false; // hides drive shaft
+                pictureBox6.Visible = false; // hides brakes
+                pictureBox8.Visible = false; // hides car
+                pictureBox7.Visible = true;  // shows window
             }
         }
     }
