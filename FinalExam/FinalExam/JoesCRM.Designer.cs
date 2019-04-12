@@ -34,7 +34,6 @@
             this.Invoicesbtn = new System.Windows.Forms.Button();
             this.Vehiclesbtn = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.RevenueLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -71,14 +70,6 @@
             resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
             this.dateTimePicker1.Name = "dateTimePicker1";
             // 
-            // RevenueLabel
-            // 
-            this.RevenueLabel.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.RevenueLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.RevenueLabel, "RevenueLabel");
-            this.RevenueLabel.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.RevenueLabel.Name = "RevenueLabel";
-            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
@@ -91,7 +82,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.RevenueLabel);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.Vehiclesbtn);
             this.Controls.Add(this.Invoicesbtn);
@@ -110,7 +100,6 @@
         private System.Windows.Forms.Button Invoicesbtn;
         private System.Windows.Forms.Button Vehiclesbtn;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label RevenueLabel;
         private System.Windows.Forms.Label label1;
     }
 }
